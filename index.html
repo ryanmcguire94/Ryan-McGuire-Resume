@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-eqiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan McGuire Resume Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ryan McGuire</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill Sets</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ryan McGuire</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">Skill Sets</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+          <img src="./Assets/assets/ryan-pic.PNG" alt="Ryan McGuire Picture"/>
+        </div>
+        <div class="section__text__p1">
+          <p class="section__text__p2">Aspiring IT Professional</p>
+          <h1 class="title">Ryan McGuire</h1>
+          <p class="section__text__p3">Computer Information Technology Graduate</p>
+          <p class="section__text__p4">Minor in Computer Security</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='./Assets/assets/ryanmcguireresume.docx'">Download Resume</button>
+            <!--Resume Button Needs a fix to download Resume from Site-->
+            <button class="btn btn-color-1" onclick="location.href='./#about'">Contact</button>
+          </div>
+          <div id="socials-container">
+            <img src="./Assets/assets/linkedin.png" alt="linkedin logo"
+            class="icon" onclick="location.href='https://www.linkedin.com/in/ryan-mcguire-2240102a0/'">
+            <img src="./Assets/assets/gmail.png" alt="gmail logo"
+            class="icon" onclick="location.href='mailto:ryanmcguire2024@gmail.com'">
+          </div>
+        </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">A little bit about...</p>
+      <h1 class="title">Ryan McGuire</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img src="./Assets/assets/ryan-pic-2.JPG" alt="ryan-pic-2" class="about-pic"/>
+          </div>
+          <div class="about-details-container">
+            <div class="about-container">
+              <div class="details-container">
+                <img src="./Assets/assets/toolbox.png" alt="toolbox.png" class="icon"/>
+                <h3>Experience</h3>
+                <p>1+ Years <br />Consultant/Project Manager</p>
+                <p>2+ Years <br />Programming Languages: Python, Java, SQL, HTML, and CSS</p>
+              </div>
+              <div class="details-container">
+                <img src="./Assets/assets/ud logo.png" alt="ud logo.png" class="icon"/>
+                <h3>Education</h3>
+                <p>Bachelor's of Science<br />Computer Information Technology <br/> Minor in Computer Security</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <h3>My 4 years at UD</h3>
+              <p>During my time at UD, I was able to gain the necessary skills to be a focused and functional member
+                of any team I am a part of. I am driven and passionate about each project I am a part of and I am truly
+                dedicated to seeing out what I start.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img src="./Assets/assets/down-arrow.png" alt="down-arrow.png" class="icon arrow" onclick="location.href='./#skill'"/>
+    </section>
+    <section id="skill">
+      <p class="section__text__p1"></p>
+      <h1 class="title">My Skill Set</h1>
+      <div class="skill-details-container">
+        <div class="skill">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Real Life Experience</h2>
+            <div class="article-container">
+              <article>
+                <img src="./Assets/assets/exp-check.png" alt="exp-icon.png" class="ch-icon">
+                <div>Project Management</div>
+                <p>1 Year Exp w/ Northeast Iowa School of Music</p>
+                <p>Project Planning, Critical Thinking, Troubleshooting, Budgeting, Leadership, Communication</p>
+              </article>
+              <article>
+                <img src="./Assets/assets/exp-check.png" alt="exp-icon.png" class="ch-icon">
+                <div>Resident Assistant</div>
+                <p>2 Years Exp w/ University of Dubuque</p>
+                <P>Project Planning, Critical Thinking, Conflict Resolution, Leadership, Communication</P>
+              </article>
+              <article>
+                <img src="./Assets/assets/exp-check.png" alt="exp-icon.png" class="ch-icon">
+                <div>Student Ambassador</div>
+                <p>1 Year Exp w/ University of Dubuque</p>
+                <p>Customer Service, Leadership, Communication</p>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skill-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./Assets/assets/exp-check.png" alt="exp-icon.png" class="ch-icon">
+                <div>SQL</div>
+                <p>2 Years Experience</p>
+                <p>Made my own Database to implement and retrieve data through MySQL/MariaDB</p>
+                <p>Experience in Connecting Database within a Website (Programmed with Java)</p>
+              </article>
+              <article>
+                <img src="./Assets/assets/exp-check.png" alt="exp-icon.png" class="ch-icon">
+                <div>Java</div>
+                <p>2 Years Experience</p>
+                <P>Creating a Functional Website and Programming a Dice Roll game</P>
+              </article>
+              <article>
+                <img src="./Assets/assets/exp-check.png" alt="exp-icon.png" class="ch-icon">
+                <div>Python</div>
+                <p>1 Year Experience</p>
+                <p>Understanding of Logic for Code and worked on a functional Web Game</p>
+              </article>
+              <article>
+                <img src="./Assets/assets/exp-check.png" alt="exp-icon.png" class="ch-icon">
+                <div>HTML</div>
+                <p>2 Year Experience</p>
+                <p>Learned how to build websites and structure websites, like this one!</p>
+                <p>Also learned exploitation and ethical hacking through HTML vulnerabilities</p>
+              </article>
+              <article>
+                <img src="./Assets/assets/exp-check.png" alt="exp-icon.png" class="ch-icon">
+                <div>CSS</div>
+                <p>1 year experience</p>
+                <P>Learned how to style websites, like this one!</P>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./Assets/assets/down-arrow.png" alt="down-arrow.png" class="icon arrow" onclick="location.href='./#education'"/>
+    </section>
+    <section id="education">
+      <h1 class="title">What I learned</h1>
+      <div class="education-detials-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./Assets/assets/grad-cap.png" alt="grad-cap-icon.png" class="grad-img">
+          </div>
+          <h2 class="education-sub-title major-title"
+        </div>
+      </div>
+
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
